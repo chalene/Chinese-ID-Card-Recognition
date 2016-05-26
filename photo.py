@@ -1,6 +1,8 @@
 # coding:utf-8
 # Precondition: install image, pytesseract, tesseract, qhull
-# sudo apt-get install tesseract-ocr-eng tesseract-ocr-chi-sim
+#  		sudo apt-get install tesseract-ocr-eng tesseract-ocr-chi-sim
+# It was written by Chalene Yuan, who can be contacted via chalene.yuan[at]gmail.com
+#-------------------------------------------------------------------
 try:
 	import Image,ImageEnhance,ImageFilter, ImageDraw 
 except ImportError:
